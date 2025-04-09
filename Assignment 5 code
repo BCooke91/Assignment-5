@@ -80,7 +80,7 @@ nav button {
   color: white;
   border: none;
 }
-
+/* Main content layout using Flexbox */
 .content {
   display: flex;
   justify-content: space-between;
@@ -103,7 +103,7 @@ h2, h3 {
   font-family: 'Alfa Slab One', cursive;
   color: #111;
 }
-
+ /* Styling for related links */
 aside ul {
   padding-left: 20px;
 }
@@ -112,7 +112,7 @@ aside a {
   color: #0033cc;
   text-decoration: underline;
 }
-
+/* Table styling */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -129,7 +129,7 @@ caption {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-
+ /* Form elements */
 input, textarea {
   display: block;
   margin-bottom: 1rem;
@@ -145,11 +145,11 @@ button {
   border: none;
   cursor: pointer;
 }
-
+/* Accessibility focus outline */
 button:focus, input:focus, textarea:focus {
   outline: 3px solid #0055aa;
 }
-
+/* Screen reader only content (e.g., skip links) */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -164,6 +164,7 @@ button:focus, input:focus, textarea:focus {
   </style>
 </head>
 <body>
+  <!-- Skip link for keyboard/screen reader users -->
   <a href="#main-content" class="sr-only">Skip to main content</a>
 
   <header>
