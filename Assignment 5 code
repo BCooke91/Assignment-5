@@ -7,11 +7,15 @@ Description: Accessibility Troubleshooting
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta info for encoding and responsive design -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Page Title -->
   <title>Wildlife Website</title>
+  <!-- External CSS and font -->
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet" />
+  <!-- Internal CSS for layout and styling -->
   <style>
     body {
   font-family: Arial, sans-serif;
