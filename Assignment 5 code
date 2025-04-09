@@ -166,18 +166,20 @@ button:focus, input:focus, textarea:focus {
 <body>
   <!-- Skip link for keyboard/screen reader users -->
   <a href="#main-content" class="sr-only">Skip to main content</a>
-
+  <!-- Page Header -->
   <header>
     <h1>Welcome to our wildlife website</h1>
   </header>
-
+  <!-- Site Navigation -->
   <nav>
     <ul>
+      <!-- Navigation links -->
       <li><a href="#">Home</a></li>
       <li><a href="#">Our Team</a></li>
       <li><a href="#">Projects</a></li>
       <li><a href="#">Blog</a></li>
       <li>
+        <!-- Search form with proper ARIA roles -->
         <form role="search" aria-label="Site search">
           <label for="search" class="sr-only">Search query</label>
           <input type="text" id="search" name="search" placeholder="Search query" aria-label="Search query" />
